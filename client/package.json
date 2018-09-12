@@ -14,7 +14,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "materialize-css": "^1.0.0",
     "vue": "^2.5.2",
+    "vue-cookies": "^1.5.6",
+    "vue-materialize-datatable": "^0.7.6",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

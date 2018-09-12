@@ -3,8 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueCookis from 'vue-cookies'
+import HeaderComponent from '@/components/HeaderComponent'
 
 Vue.config.productionTip = false
+Vue.use(VueCookis)
+Vue.component('HeaderComponent', HeaderComponent)
 
 /* eslint-disable no-new */
 new Vue({
